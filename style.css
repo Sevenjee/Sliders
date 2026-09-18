@@ -108,12 +108,13 @@ main{
     padding: 10px;
     margin-top: auto;
     border-radius: 5px;
-    transition : transform 0.2s ease;
+    transition : transform 0.2s ease, filter 0.2s ease;
     }
 
 .card button:hover{
     transform: scale(1.03);
     cursor: pointer;
+    filter: brightness(90%);
 }
 
 /* .burger-description{
